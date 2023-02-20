@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ebe6e6;
+}
+
+.box1 {
+  height: 50px;
+  width: 50px;
+}
+
+.box2 {
+  height: 100px;
+  width: 100px;
+}
+
+.box3 {
+  height: 150px;
+  width: 150px;
+}
+
+.box {
+  border: 1px black solid;
+  background-color: rgb(247, 21, 96);
+  position: relative;
+  animation-name: move;
+  animation-duration: 2s;
+}
+
+@keyframes move {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0;
+  }
+}
