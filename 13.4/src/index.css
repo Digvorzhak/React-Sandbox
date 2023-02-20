@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ebe6e6;
+}
+
+.box1 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(247, 21, 96);
+  position: relative;
+}
+
+.green {
+  background: green;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.orange {
+  background: orange;
+}
+
+.purple {
+  background: purple;
+}
+
+.circle {
+  border-radius: 50%;
+}
